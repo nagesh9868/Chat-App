@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+    margin: auto;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(232, 167, 167), rgb(240, 141, 101));
+}
+
+.container{
+    max-width: 955px;
+    background-color: yellow;
+    margin: auto;
+    height: 60vh;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid green;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+}
+
+.message{
+    border: 2px solid green;
+    /* height: 4vh; */
+    /* padding: 2px; */
+    margin: 8px;
+    width: 30vh;
+    border-radius: 15px;
+    background-color: yellowgreen ;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#messageInp{
+    width: 58%;
+    border: 2px solid red;
+    background-color: rgb(167, 176, 202);
+    border-radius: 7px;
+    height: 34px;
+}
+
+.btn{
+    height: 38px;
+    width: 73px;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
